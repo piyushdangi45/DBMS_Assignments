@@ -1,0 +1,67 @@
+INSERT INTO Department VALUES (118, '3D Animation and Graphics', 'Block F');
+INSERT INTO Department VALUES (119, 'Civil Engineering with Computer Application', 'Block E');
+INSERT INTO Department VALUES (157, 'Computer Science and Engineering (AIML)', 'Block G');
+INSERT INTO Department VALUES (101, 'Civil Engineering', 'Block A');
+INSERT INTO Department VALUES (102, 'Mechanical Engineering', 'Block C');
+INSERT INTO Department VALUES (105, 'Computer Science and Engineering', 'Block D');
+INSERT INTO Department VALUES (110, 'Electrical and Electronics Engineering', 'Block B');
+
+INSERT INTO Student VALUES (23157128001, 'Simran Kumari', DATE '2004-03-12', 'F', '9126700011', 157);
+INSERT INTO Student VALUES (23119128010, 'Akshay Kumar', DATE '2004-02-06', 'M', '9125600077', 119);
+INSERT INTO Student VALUES (23119128011, 'Suprit Kumar', DATE '2003-08-29', 'M', '9125600088', 119);
+INSERT INTO Student VALUES (23157128002, 'Harshit Kumar', DATE '2003-11-05', 'M', '9126700022', 157);
+INSERT INTO Student VALUES (23118128006, 'Sunny', DATE '2003-12-01', 'M', '9123400066', 118);
+INSERT INTO Student VALUES (23118128007, 'Aman Kumar', DATE '2004-05-22', 'M', '9123400077', 118);
+INSERT INTO Student VALUES (23110128008, 'Aditya Raj', DATE '2003-10-03', 'M', '9781039267', 110);
+INSERT INTO Student VALUES (23110128009, 'Sachin Tiwari', DATE '2003-08-28', 'M', '9892140378', 110);
+INSERT INTO Student VALUES (23105128005, 'Udit Kr. Pal', DATE '2004-05-09', 'M', '8567890145', 105);
+INSERT INTO Student VALUES (23105128006, 'Amarjeet Kumar', DATE '2003-08-21', 'M', '8678901256', 105);
+INSERT INTO Student VALUES (23105128007, 'Md. Altaf Alam', DATE '2004-02-02', 'M', '8789012367', 105);
+INSERT INTO Student VALUES (23102128003, 'Sanoj Kumar', DATE '2004-06-19', 'M', '9345678123', 102);
+INSERT INTO Student VALUES (23102128004, 'Anuj Prakash', DATE '2003-09-27', 'M', '9456781234', 102);
+INSERT INTO Student VALUES (23101128006, 'Md Bahrose', DATE '2002-12-25', 'M', '8932147506', 101);
+INSERT INTO Student VALUES (23101128007, 'William Kumar Das', DATE '2003-07-05', 'M', '7019458236', 101);
+
+INSERT INTO Faculty VALUES (515, 'Nitish Kumar', 'Associate Professor', 'nitianj@gmail.com', 110);
+INSERT INTO Faculty VALUES (516, 'Ashish Kumar Suman', 'Professor', 'sumanashish.rkt@gmail.com', 110);
+INSERT INTO Faculty VALUES (517, 'Mitesh Kumar', 'Associate Professor', 'mitesh.sva@gmail.com', 110);
+INSERT INTO Faculty VALUES (526, 'Manisha Kumari Singh', 'Associate Professor', 'manisha.ks241@gmail.com', 118);
+INSERT INTO Faculty VALUES (503, 'Raushan Anand', 'Associate Professor', 'raushanbpmc@gmail.com', 101);
+INSERT INTO Faculty VALUES (504, 'Pankaj Kumar', 'Associate Professor', 'pankajkumarpk8888@gmail.com', 101);
+INSERT INTO Faculty VALUES (527, 'Abhishek Kumar', 'Associate Professor', 'abhishek.kumar@gmail.com', 118);
+INSERT INTO Faculty VALUES (525, 'N. Kumar', 'Associate Professor', 'n.kumar@gmail.com', 119);
+INSERT INTO Faculty VALUES (523, 'Praveen Kumar', 'Assistant Professor', 'praveenkumaryadav782@gmail.com', 157);
+INSERT INTO Faculty VALUES (505, 'Nishikant Kumar', 'Associate Professor', 'nishikantbpmce32@gmail.com', 101);
+INSERT INTO Faculty VALUES (506, 'Rupesh Kumar', 'Associate Professor', 'rupesh.kumar@gmail.com', 101);
+INSERT INTO Faculty VALUES (507, 'Bablu Das', 'Associate Professor', 'bkmech78@gmail.com', 102);
+INSERT INTO Faculty VALUES (501, 'Kunal Kumar', 'Associate Professor', 'kunal1989kumar@gmail.com', 101);
+INSERT INTO Faculty VALUES (502, 'Akhilesh Kumar', 'Associate Professor', 'akhileshkumar3804@gmail.com', 101);
+INSERT INTO Faculty VALUES (514, 'Abhimanyu Mandal', 'Associate Professor', 'mandal.abhimanyu225@gmail.com', 110);
+
+INSERT INTO Course VALUES (101502, 'Environmental Engineering I', 4, 101, 503);
+INSERT INTO Course VALUES (101506, 'Mechanics of Materials', 4, 101, 504);
+INSERT INTO Course VALUES (101504, 'Hydrology and Water Resources', 4, 101, 501);
+INSERT INTO Course VALUES (102501, 'Fluid Machinery', 4, 102, 507);
+INSERT INTO Course VALUES (105503, 'Formal Language and Automata', 4, 105, 523);
+INSERT INTO Course VALUES (100502, 'Control Systems', 4, 110, 514);
+INSERT INTO Course VALUES (119507, 'Transportation Engineering', 4, 119, 525);
+INSERT INTO Course VALUES (119502, 'Hydraulic Engineering', 4, 119, 525);
+INSERT INTO Course VALUES (119506, 'Environmental Engineering I', 4, 119, 525);
+INSERT INTO Course VALUES (622, 'Computer Networks', 4, 157, 523);
+INSERT INTO Course VALUES (623, 'Artificial Intelligence', 4, 157, 523);
+
+INSERT INTO Enrollment VALUES (23105128005, 105503, '5th', 'A');
+INSERT INTO Enrollment VALUES (23105128006, 105503, '5th', 'A-');
+INSERT INTO Enrollment VALUES (23105128007, 105503, '5th', 'B+');
+INSERT INTO Enrollment VALUES (23110128008, 100502, '5th', 'A');
+INSERT INTO Enrollment VALUES (23110128009, 100502, '5th', 'B+');
+INSERT INTO Enrollment VALUES (23157128001, 622, '5th', 'A-');
+INSERT INTO Enrollment VALUES (23157128002, 623, '5th', 'B');
+INSERT INTO Enrollment VALUES (23119128010, 119507, '5th', 'A');
+INSERT INTO Enrollment VALUES (23119128011, 119502, '5th', 'A-');
+INSERT INTO Enrollment VALUES (23118128006, 101502, '5th', 'A');
+INSERT INTO Enrollment VALUES (23118128007, 101506, '5th', 'B+');
+INSERT INTO Enrollment VALUES (23102128003, 102501, '5th', 'B');
+INSERT INTO Enrollment VALUES (23102128004, 101504, '5th', 'A');
+
+COMMIT;
